@@ -9,7 +9,7 @@ A fitness tracking and goal management platform to help users stay on top of the
 - ✅ Personalized workout tracking  
 - ✅ Goal setting & progress monitoring  
 - ✅ Simple, intuitive dashboard  
-- ✅ Mobile-friendly & accessible
+- ✅ Easy-to-use & accessible
 
 ---
 
