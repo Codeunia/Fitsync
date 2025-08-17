@@ -70,6 +70,12 @@
 
 ---
 
+## Deployment on Vercel
+- Frontend
+- Backend
+
+---
+
 ## 👨‍💻 Contributor
 
 - [Vaibhavi Kapile](https://github.com/ErVaibhaviKapile)
