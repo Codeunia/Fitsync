@@ -9,6 +9,11 @@
 
 ---
 
+## 🚀 Live Demo
+[👉 Click here to try FitSync](https://fitsync-frontend.vercel.app/login)
+
+---
+
 ## ✨ Features
 
 - **🔐 Authentication**
@@ -62,4 +67,12 @@
 - Enable profile picture uploads
 - Add fitness progress tracking charts
 - Social sharing of achievements
+
+---
+
+## 👨‍💻 Contributor
+
+- [Vaibhavi Kapile](https://github.com/ErVaibhaviKapile)
+
+
 
