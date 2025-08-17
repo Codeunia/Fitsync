@@ -1,50 +1,65 @@
-# FitSync — Fitness & Nutrition Dashboard (MERN)**
+# 🏋️‍♂️ FitSync – Fitness Tracking & Profile Dashboard
 
-FitSync is a modern fitness and nutrition tracking dashboard built with the **MERN** stack (MongoDB, Express, React, Node). It helps users track workouts, plan meals, monitor macros/calories, and visualize progress with interactive charts.
+**FitSync** is a MERN (MongoDB, Express, React, Node.js) based fitness companion app that helps users:
 
----
-
-## 🚀 Live Demo
-
-**Live:** 
-(https://fitsync-frontend.vercel.app/login) ](https://fitsync-frontend.vercel.app/login)
+- Sign up & log in securely
+- Maintain a personal fitness profile
+- Track health details like height, weight, goals, and medical history
+- View their registered email on the dashboard after login
 
 ---
 
-## 🧭 Features
+## ✨ Features
 
-- 🔒 User authentication (signup / login / JWT)
-- 📊 Dashboard with progress charts (weight, calories, macros)
-- 🏋️ Workout logging (exercises, sets, reps, notes)
-- 🥗 Meal planner & nutrition tracking (meals, food items, calories)
-- 🔎 Searchable food database (or custom food entries)
-- 📅 History & analytics with date filters
-- ⚙️ User profile & settings (units, goals)
-- ☁️ RESTful API with protected routes and role-based access
-
----
-
-## 🛠️ Tech Stack
-
-| Layer     | Technology                                                   |
-|-----------|--------------------------------------------------------------|
-| Frontend  | React (Vite or CRA), React Router, Context / Redux           |
-| Backend   | Node.js, Express                                             |
-| Database  | MongoDB                                                      |
-| Auth      | JWT (JSON Web Tokens)                                        |
-| Deployment| Vercel                                                       |
-| Charts/UI | Recharts, Tailwind CSS                                       |
-
-
----
-## 📦 Deployment on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
-
-Check out our Next.js deployment documentation for more details.
+- **🔐 Authentication**
+  - Secure sign-up and login
+  - Passwords hashed with `bcrypt`
+  
+- **📄 Profile Management**
+  - Save personal details (name, height, weight, fitness goals, medical conditions)
+  - Data stored in MongoDB
+    
+- **📧 Dashboard Personalization**
+  - Displays the logged-in user’s email in the navbar
+    
+- **💻 Responsive UI**
+  - Built with Tailwind CSS for a modern, mobile-friendly design
+    
+- **⚡ REST API**
+  - Node.js + Express backend
+  - MongoDB for database persistence
 
 ---
 
-### 🙋‍♀️ Contribution
+## 🛠 Tech Stack
 
-- [Vaibhavi Kapile](https://github.com/ErVaibhaviKapile)
+**Frontend**
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Context API (Auth management)
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- bcrypt for password hashing
+- dotenv for environment variables
+
+---
+
+| Method | Endpoint           | Description            |
+| ------ | ------------------ | ---------------------- |
+| POST   | `/api/auth/signup` | Register new user      |
+| POST   | `/api/auth/login`  | Login existing user    |
+| POST   | `/api/profile`     | Save user profile      |
+| GET    | `/api/profile/:id` | Get user profile by ID |
+
+---
+
+## 💡 Future Improvements
+- Add JWT-based session handling
+- Enable profile picture uploads
+- Add fitness progress tracking charts
+- Social sharing of achievements
 
