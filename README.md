@@ -63,9 +63,9 @@
 ---
 
 ## 💡 Future Improvements
-- Add JWT-based session handling
+- Add session handling
 - Enable profile picture uploads
-- Add fitness progress tracking charts
+- Add fitness progress tracking dynamically
 - Social sharing of achievements
 
 ---
